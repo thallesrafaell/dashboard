@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard
 
-## Getting Started
+Este projeto é um **Dashboard** desenvolvido com as tecnologias **Shadcn**, **Tailwind CSS** e **Recharts**. Ele foi criado para fornecer uma interface de usuário moderna e responsiva, exibindo gráficos interativos e informações de maneira intuitiva.
 
-First, run the development server:
+## Tecnologias Utilizadas
+
+- **Shadcn**: Uma biblioteca de componentes que oferece uma abordagem simples para criar interfaces interativas.
+- **Tailwind CSS**: Framework utilitário de CSS para estilização rápida e responsiva.
+- **Recharts**: Biblioteca de gráficos para visualização de dados interativos e dinâmicos.
+- **React**: Biblioteca JavaScript para criar interfaces de usuário dinâmicas e reativas.
+  
+## Funcionalidades
+
+- **Gráficos Interativos**: Utiliza **Recharts** para renderizar gráficos, como barras e linhas, baseados em dados dinâmicos.
+- **Responsividade**: O layout foi projetado com **Tailwind CSS** para ser completamente responsivo em dispositivos móveis, tablets e desktops.
+- **Design Moderno**: Utiliza os componentes de **Shadcn** para um visual limpo e funcional.
+- **Interface Intuitiva**: Focada em fornecer uma experiência de usuário simples e eficiente.
+
+## Demonstração
+
+Você pode visualizar o dashboard em tempo real através do link abaixo:
+
+- [Dashboard ao vivo](https://dashboard-jade-five-47.vercel.app/)
+
+## Instalação e Execução Local
+
+Para rodar o projeto localmente, siga os seguintes passos:
+
+### 1. Clonar o repositório
+
+Clone o repositório usando o Git:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/dashboard.git
+```
+### 2. Instalar as dependências
+Navegue até o diretório do projeto e instale as dependências:
+```bash
+cd dashboard
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 3. Executar o servidor local
+Inicie o servidor local de desenvolvimento:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Acessar o Dashboard
+Abra o navegador e vá até http://localhost:3000 para visualizar o dashboard localmente.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Contribuindo
+1. Faça um fork do projeto.
+2. Crie uma nova branch para sua feature (git checkout -b feature/nome-da-feature).
+3. Faça as alterações e commit com uma mensagem clara (git commit -am 'Adiciona nova funcionalidade').
+4. Envie as alterações para o repositório remoto (git push origin feature/nome-da-feature).
+Abra um Pull Request.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Licença
+Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
