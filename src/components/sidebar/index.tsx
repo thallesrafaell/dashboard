@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Button } from "../button";
-import { Sheet, SheetTrigger, SheetContent } from "../sheet";
+import { Button } from "../ui/button";
+import { Sheet, SheetTrigger, SheetContent } from "../ui/sheet";
 import {
   Home,
   LogOutIcon,
@@ -15,7 +15,7 @@ import {
   TooltipProvider,
   TooltipContent,
   TooltipTrigger,
-} from "../tooltip";
+} from "../ui/tooltip";
 
 export function SideBar() {
   return (
