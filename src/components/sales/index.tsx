@@ -11,7 +11,7 @@ import { ScrollArea } from "../ui/scroll-area";
 
 export default function Sales() {
   return (
-    <Card className="flex-1 max-h-xs">
+    <Card className="w-full md:w-1/2 ">
       <CardHeader>
         <div className="flex items-center justify-center">
           <CardTitle>Ultimos Clientes</CardTitle>

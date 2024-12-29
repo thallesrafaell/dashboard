@@ -27,7 +27,7 @@ const chartConfig = {
 
 export default function ChartOverview() {
   return (
-    <Card className="w-full md:w-1/2 md:max-w-[600px]">
+    <Card className="w-full md:w-1/2 ">
       <CardHeader>
         <div className="flex items-center justify-center">
           <CardTitle>Overview vendas</CardTitle>

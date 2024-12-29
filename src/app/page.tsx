@@ -75,7 +75,7 @@ export default function Home() {
           </CardContent>
         </Card>
       </section>
-      <section className="m-4 flex flex-col md:flex-row gap-4">
+      <section className="m-4 flex flex-col md:flex-row md:grid-rows-1 gap-4">
         <ChartOverview />
         <Sales />
       </section>
