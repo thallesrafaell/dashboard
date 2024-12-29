@@ -23,7 +23,7 @@ export default function Sales() {
       </CardHeader>
 
       <CardContent>
-        <ScrollArea className="h-[300px] w-full rounded-md  p-4">
+        <ScrollArea className="h-[339px] w-full rounded-md  p-4">
           <article className="flex items-center gap-2 border-b py-2">
             <Avatar className="w-8 h-8">
               <AvatarImage src="https://avatar.iran.liara.run/public/boy" />
